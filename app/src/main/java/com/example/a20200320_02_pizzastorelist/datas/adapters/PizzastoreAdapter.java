@@ -15,7 +15,7 @@ import com.example.a20200320_02_pizzastorelist.datas.PizzaStore;
 import java.util.List;
 
 public class PizzastoreAdapter extends ArrayAdapter<PizzaStore> {
-    
+
         Context mContext;
         List<PizzaStore> mList;
         LayoutInflater inf;
@@ -37,6 +37,7 @@ public class PizzastoreAdapter extends ArrayAdapter<PizzaStore> {
         if (row == null){
             row = inf.inflate(R.layout.pizza_store_list_item,null);
         }
+        return row;
 
     }
 }
