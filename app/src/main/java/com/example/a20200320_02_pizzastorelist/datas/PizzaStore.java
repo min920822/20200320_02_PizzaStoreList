@@ -11,6 +11,10 @@ public class PizzaStore implements Serializable {
     public PizzaStore(String storeName, String logoUrl) {
         this.storeName = storeName;
         this.logoUrl = logoUrl;
+        this.phoneNum = phoneNum;
+    }
+
+    public PizzaStore(String 피자헛, String 이미지_주소, String s) {
     }
 
     public String getStoreName() {
